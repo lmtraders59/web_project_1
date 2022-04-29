@@ -225,10 +225,16 @@
 
 .event-info__icon_type_calendar {
   background-image: url(../images/icon_calendar.svg);
+  margin-right: 1px;
 }
 
 .event-info__icon_type_pin {
   background-image: url(../images/icon_pin.svg);
+  margin-right: 1px;
+}
+
+.icon__calendar__image {
+  margin-right: 0;
 }
 
 .event-info__text {
