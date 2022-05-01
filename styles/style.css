@@ -269,47 +269,67 @@
 }
 
 .person {
-  /* position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px; */
+  gap: 10px;
 }
 
 .person_name_feynman {
   /* Use correct values of top/right/bottom/left properties to position the element */
+  top: 30px;
+  right: 319px;
+  bottom: 159px;
+  left: 10;
 }
 
 .person_name_burbidge {
   /* Use correct values of top/right/bottom/left properties to position the element */
+  top: 30px;
+  right: 319px;
+  bottom: 159px;
+  left: 10;
 }
 
 .person_name_cannon {
   /* Use correct values of top/right/bottom/left properties to position the element */
+  top: 30px;
+  right: 319px;
+  bottom: 159px;
+  left: 10;
 }
 
 .person_name_mitchell {
   /* Use correct values of top/right/bottom/left properties to position the element */
+  top: 30px;
+  right: 319px;
+  bottom: 159px;
+  left: 10;
 }
 
 .person_name_tarter {
   /* Use correct values of top/right/bottom/left properties to position the element */
+  top: 30px;
+  right: 319px;
+  bottom: 159px;
+  left: 10;
 }
 
 .person__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person__image_size_l {
-  /* width: 140px; */
+  width: 140px;
 }
 
 .person__image_size_m {
-  /* width: 100px; */
+  width: 100px;
 }
 
 .person__image_size_s {
-  /* width: 80px; */
+  width: 80px;
 }
 
 .person__caption {
@@ -338,6 +358,7 @@
   padding: 0;
   margin: 100px 0 0;
   /* Add styles */
+  flex-basis: auto;
 }
 
 .step {
