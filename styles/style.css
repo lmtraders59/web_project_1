@@ -282,6 +282,9 @@
   right: 319px;
   bottom: 159px;
   left: 10;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .person_name_burbidge {
@@ -294,10 +297,8 @@
 
 .person_name_cannon {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  top: 30px;
-  right: 319px;
-  bottom: 159px;
-  left: 10;
+  right: 216px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
@@ -358,6 +359,7 @@
   padding: 0;
   margin: 100px 0 0;
   /* Add styles */
+  position: relative;
   flex-basis: auto;
 }
 
