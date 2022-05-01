@@ -360,7 +360,7 @@
   margin: 100px 0 0;
   /* Add styles */
   position: relative;
-  flex-basis: auto;
+  flex-basis: content;
 }
 
 .step {
