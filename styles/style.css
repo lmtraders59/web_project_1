@@ -279,42 +279,38 @@
 .person_name_feynman {
   /* Use correct values of top/right/bottom/left properties to position the element */
   top: 30px;
-  right: 319px;
-  bottom: 159px;
-  left: 10;
-  position: relative;
+  left: 319px;
+  position: absolute;
   display: flex;
   flex-wrap: wrap;
 }
 
 .person_name_burbidge {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  top: 30px;
-  right: 319px;
-  bottom: 159px;
-  left: 10;
+  top: 96px;
+  right: 125px;
+  position: absolute;
 }
 
 .person_name_cannon {
   /* Use correct values of top/right/bottom/left properties to position the element */
   right: 216px;
   bottom: 18px;
+  position: absolute;
 }
 
 .person_name_mitchell {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  top: 30px;
-  right: 319px;
-  bottom: 159px;
-  left: 10;
+  bottom: 82px;
+  left: 142px;
+  position: absolute;
 }
 
 .person_name_tarter {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  top: 30px;
-  right: 319px;
-  bottom: 159px;
-  left: 10;
+  top: 79px;
+  left: 159px;
+  position: absolute;
 }
 
 .person__image {
@@ -359,13 +355,13 @@
   padding: 0;
   margin: 100px 0 0;
   /* Add styles */
-  position: relative;
-  display: inline-flex;
+  justify-content: center;
+  display: flex;
 }
 
 .step {
   /* Add styles */
-  width: 100%;
+  width: 220px;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -411,6 +407,8 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about__paragraph {
