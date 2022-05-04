@@ -392,6 +392,8 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  gap: 120px;
 }
 
 .about__title {
@@ -412,6 +414,7 @@
   align-items: center;
   justify-content: center;
   gap: 32px;
+  z-index: 1;
 }
 
 .about__paragraph {
@@ -423,6 +426,10 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+  top: -121px;
+  left: -91px;
 }
 
 .footer {
