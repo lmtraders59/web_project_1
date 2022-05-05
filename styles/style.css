@@ -444,9 +444,6 @@
   display: flex;
 }
 
-.footer__column {
-}
-
 .footer__column_content_hours {
   margin-left: auto;
   top: 60px;
@@ -455,6 +452,7 @@
 
 .footer__column_content_social {
   font-size: 10px;
+  margin-left: 100px;
 }
 
 .footer__logo {
@@ -471,13 +469,11 @@
   margin: 0;
 }
 
-.footer__list-item {
-  font-size: 10px;
-  list-style-type: none;
-  margin: 16px;
+li:last-of-type {
+  margin-bottom: 0;
 }
 
-.footer__list-link {
+.footer__list-item {
   font-size: 10px;
   list-style-type: none;
   margin: 16px;
@@ -509,3 +505,4 @@ li:last-of-type {
   bottom: 20px;
   font-size: 10px;
 }
+/* Test */
