@@ -20,7 +20,6 @@
 }
 
 .nav {
-  /* Add flex properties here */
   display: flex;
   justify-content: space-between;
 }
@@ -45,7 +44,6 @@
   font-weight: bold;
 }
 
-/* Add the hover state styles for .nav__link here */
 .nav__link:hover {
   color: #1f69c9;
 }
@@ -172,8 +170,6 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
-  /* In our case, this pushes the element down to the bottom */
   margin-top: auto;
 }
 
@@ -251,7 +247,6 @@
   text-decoration: none;
 }
 
-/* Add the hover state styles for .events__more here */
 .events__more:hover {
   color: #1f69c9;
 }
@@ -277,7 +272,6 @@
 }
 
 .person_name_feynman {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: 30px;
   left: 319px;
   position: absolute;
@@ -286,28 +280,24 @@
 }
 
 .person_name_burbidge {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: 96px;
   right: 125px;
   position: absolute;
 }
 
 .person_name_cannon {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   right: 216px;
   bottom: 18px;
   position: absolute;
 }
 
 .person_name_mitchell {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   bottom: 82px;
   left: 142px;
   position: absolute;
 }
 
 .person_name_tarter {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: 79px;
   left: 159px;
   position: absolute;
@@ -330,9 +320,9 @@
 }
 
 .person__caption {
-  /* text-align: center;
+  text-align: center;
   font-size: 14px;
-  margin: 0; */
+  margin: 0; 
 }
 
 .membership {
@@ -354,13 +344,11 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
   justify-content: center;
   display: flex;
 }
 
 .step {
-  /* Add styles */
   width: 220px;
   height: 100%;
   display: flex;
@@ -463,7 +451,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -474,8 +461,7 @@
   list-style-type: none;
   margin-bottom: 16px;
 }
-
-li:last-of-type {
+.footer__list-item:last-of-type {
   margin-bottom: 0;
 }
 
@@ -506,4 +492,3 @@ li:last-of-type {
   bottom: 20px;
   font-size: 16px;
 }
-/* Test */

@@ -17,7 +17,6 @@
             alt="Practicum Library Logo"
             class="logo"
           />
-          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#staff-picks">Staff picks</a>
@@ -32,7 +31,7 @@
               <a class="nav__link" href="#about-library">About</a>
             </li>
             <li>
-              <a class="nav__link" href="">Contacts</a>
+              <a class="nav__link" href="#footer">Contacts</a>
             </li>
           </ul>
         </div>
@@ -59,8 +58,6 @@
         <div class="staff" id="staff-picks">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <!-- Wrap those cards! -->
-          <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
           <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
@@ -162,7 +159,6 @@
             <a href="#" class="events__more">More events &rarr;</a>
             <a class="events__more"> </a>
           </div>
-          <!-- Start creating the composition here -->
           <div class="events__cover">
             <img
               src="./images/cafe.png"
@@ -300,34 +296,39 @@
           <div class="about__circle"></div>
         </div>
       </main>
-      <footer class="footer">
-        <!-- The time to mark up the footer has come, you can do it 💪 -->
+      <footer class="footer" id="footer">
         <div class="footer__columns">
           <div class="footer__column">
-            <div class="footer__logo">
-              <img
-                src="./images/logo_white.png"
-                alt="white logo"
-                class="footer__logo"
-              />
-            </div>
+            <img
+              src="./images/logo_white.png"
+              alt="white logo"
+              class="footer__logo"
+            />
           </div>
           <div class="footer__column footer__column_content_hours">
             <h5 class="footer__column__heading">Hours</h5>
             <ul class="footer__list">
-              <li class="footer__list-item">Weekdays: 9am-8pm</li>
-              <li class="footer__list-item">Weekends: 10am-6pm</li>
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
             </ul>
           </div>
           <div class="footer__column footer__column_content_social">
             <h5 class="footer__column__heading">Social media</h5>
-            <ul class="footer__list-item">
-              <li class="footer__list-link">
-                <img src="./images/facebook_white.svg" alt="facebook icon" />
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="facebook icon"
+                  class="footer__social-icon"
+                />
                 Facebook
               </li>
-              <li class="footer__list-link">
-                <img src="./images/instagram_white.svg" alt="instagram icon" />
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="instagram icon"
+                  class="footer__social-icon"
+                />
                 Instagram
               </li>
             </ul>
