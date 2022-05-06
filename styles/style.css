@@ -1,4 +1,3 @@
-/* Add your class here */
 .page {
   min-height: 1100px;
   max-width: 1600px;
@@ -322,7 +321,7 @@
 .person__caption {
   text-align: center;
   font-size: 14px;
-  margin: 0; 
+  margin: 0;
 }
 
 .membership {
@@ -468,7 +467,6 @@
 .footer__column-heading {
   margin-bottom: 20px;
   margin-top: 0;
-  }
 }
 
 .footer__column-link {
