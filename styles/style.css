@@ -413,12 +413,12 @@
 .footer__column_content_hours {
   margin-right: 100px;
   margin-left: auto;
-  font-size: 20px;
 }
 
 .footer__column_content_social {
-  font-size: 20px;
   margin-right: 22px;
+  font-size: 18px;
+  list-style-type: none;
 }
 
 .footer__logo {
@@ -435,8 +435,6 @@
 }
 
 .footer__list-item {
-  font-size: 18px;
-  list-style-type: none;
   margin-bottom: 16px;
 }
 .footer__list-item:last-of-type {
@@ -465,7 +463,5 @@
 }
 
 .footer__copyright {
-  left: 80px;
-  bottom: 20px;
-  font-size: 16px;
+  margin: 0;
 }
