@@ -417,7 +417,6 @@
 
 .footer__column_content_social {
   margin-right: 22px;
-  font-size: 18px;
   list-style-type: none;
 }
 
@@ -444,6 +443,9 @@
 .footer__column-heading {
   margin-bottom: 20px;
   margin-top: 0;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .footer__column-link {
